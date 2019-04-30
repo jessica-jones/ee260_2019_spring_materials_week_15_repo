@@ -16,3 +16,12 @@ Add a new instruction to the six-instruction instruction set of this week that p
 
 ## (5 pts)
 Using the six-instruction instruction set of this week, write an assembly program for the following C code, which computes the sum of the first N numbers, where N is another name for D[9]. Hint: use a register to first store N.
+
+```c
+i=0;
+sum=0;
+while ( i!=N ) {
+  sum = sum + i;
+   i = i + 1;
+}
+```
